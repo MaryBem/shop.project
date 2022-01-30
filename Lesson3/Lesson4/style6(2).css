@@ -1,0 +1,34 @@
+* box-sizing
+{ border-box;}
+.block {
+    background-color:blue;
+    color:white;
+    padding:15px;
+}
+/*tablet*/
+@media (min-width:768px){
+    .block {
+        background-color:green;}
+    }
+    
+@media (min-width:800px) and (max-width:900px) {
+    .block {
+        background-color:pink;
+    }
+    /*laptop*/
+@media (min-width:992px){
+    .block {
+        background-color:yellow;
+    padding:40px;}
+    }
+     /*desktop*/
+    @media (min-width:1200px){
+        .block {
+            background-color:black;
+        padding:15px;}
+        }
+        /*only mobile*/
+    @media (max-width:760px) {
+        .block {
+            background-color:purple;}
+        }

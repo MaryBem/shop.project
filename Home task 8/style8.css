@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    float: left;
+    background-color: #cadbed;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:wght@100;300&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .menu {
+    list-style: none;
+    display: block;
+    background-color: #cadbed;
+  }
+  .menu li {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 41px;
+    background-color: #cadbed;
+    color: #2d71b8;
+    font-size:21px;
+    border-right: 3px solid grey;
+    width: 130px;
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+    margin: 10px;
+    transform: translateY(-10%);
+    resize: vertical;
+  }
+  .submenu li {
+    position: ablosute;
+    display: block;
+    width: 300px;
+    height: 41px;
+    font-size:21px;
+    background-color:white;
+    color: #2d71b8;
+    border: 2px grey; width:282px height:330px;
+    text-align:center;
+    line-height: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .menu li:hover {
+    background-color: #cadbed;
+    color: black;
+    border: none;
+  }
+  .submenu a:hover {
+    background-color: #2d71b8;
+    color: black;
+    display: block;
+  }
+  .submenu {
+    position: relative;
+    width: 296px;
+    height:41px;
+    left: -45px;
+    top: 10px;
+    border: 3px solid grey;
+    width: 282px;
+    height: 450px;
+    list-style: none;
+    display: none;
+    float: left;
+  }
+  .menu > li:hover .submenu {
+    display: block;
+    background-color: #2d71b8;
+  }
+  
+  .menu > a:hover {
+    display: block;
+  }
+  ::placeholder {
+    color: #2d71b8;
+    float: left;
+  }
+  input {
+    width: 202px;
+    height: 37px;
+    margin: 10px;
+    padding: 12px;
+    margin-bottom: 5px;
+    font-size:21px;
+    color: #2d71b8;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    transform: translateY(-10%);
+    resize: vertical;
+  }
+  button {
+    background-color: #cadbed;
+    width: 36px;
+    height: 55px;
+    border:2px #cadaea   solid
+    margin-left: 5px;
+    top: 20px;
+    float: right;
+    margin-bottom: 5px;
+    transform: translateY(10%);
+    resize: vertical;
+  }
+  img {
+    float: left;
+  }
+  a {
+    text-decoration:none;
+  }

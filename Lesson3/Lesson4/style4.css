@@ -1,0 +1,50 @@
+* {
+
+    box-sizing:border-box;
+    }
+   
+
+
+.menu {
+    list-style: none;
+    border: 3px grey solid;
+
+}
+.menu a {
+    width: 200px;
+    margin: 20px;
+    float:left;
+    margin: auto
+    display:none;
+}
+.menu a {
+    display:block;
+    height: 200px;
+    background-color:greenyellow;
+    color:black;
+    border: 3px solid green;
+    text-decoration:none;
+    text-align:center;
+    line-height:30px;
+    border-radius:10px;
+    border: 3px grey solid;
+    /*text-transform:lower-case;*/
+}
+.menu a:hover {
+    background-color:white;
+    color:black;
+}
+menu li {
+    width: 100px;
+    
+}
+
+element.style {
+    border: 5px grey solid;
+    width:500px; height: 1200px;
+  }
+  .clearfix {
+      height: 200px;
+      width: 100px;
+      overflow:visible;
+  }
